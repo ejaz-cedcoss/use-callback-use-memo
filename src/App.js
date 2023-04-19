@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Parent from "./component/Parent";
+import UseMemo from "./component/UseMemo";
+import SessionEncrypt from "./component/SessionEncrypt";
+import Hashkeys from "./component/Hashkeys";
+import Test1 from "./component/Test1";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Parent /> */}
+      {/* <UseMemo/> */}
+      <SessionEncrypt />
+      {/* <Hashkeys /> */}
+      {/* <Test1 /> */}
     </div>
   );
 }
